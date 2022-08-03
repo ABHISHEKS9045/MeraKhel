@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/content_menu_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+   >
+
+    <WebView
+        android:id="@+id/web_body"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tool"
+        android:background="@color/white"
+        android:textAlignment="textStart" />
+
+
+    <RelativeLayout
+        android:id="@+id/tool"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/newrectangle">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            style="@style/ToolbarTheme2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_80sdp"
+            android:layout_alignParentTop="true"
+            android:fitsSystemWindows="true"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:gravity="top">
+
+                <ImageView
+                    android:id="@+id/image_back"
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginTop="@dimen/_12sdp"
+                    android:gravity="center"
+                    android:padding="@dimen/_4sdp"
+                    android:src="@drawable/ic_back"
+                    app:tint="@color/black" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/khel_fans" />
+
+            </RelativeLayout>
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/bottom"
+            android:backgroundTint="@color/whiteshow" />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

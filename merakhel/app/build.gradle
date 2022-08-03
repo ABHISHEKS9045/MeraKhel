@@ -1,0 +1,149 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: 'com.google.firebase.crashlytics'
+
+android {
+    signingConfigs {
+        debug {
+            keyPassword 'skoreon123'
+            storePassword 'skoreon123'
+            keyAlias 'skoreon'
+            storeFile file('C:\\Users\\HP\\Downloads\\skoreon.jks')
+        }
+    }
+    compileSdkVersion 31
+    buildToolsVersion '30.0.2'
+    defaultConfig {
+        applicationId 'merakhel.fantasy'
+        minSdk 25
+        targetSdkVersion 31
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+
+//        vectorDrawables.useSupportLibrary = true
+//        android.applicationVariants.all { variant ->
+//            variant.outputs.all {
+//                outputFileName = "${variant.name}-${versionName}.apk"
+//            }
+//        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+//        debug {
+//            buildConfigField "boolean", "MLOG", "true"
+//            minifyEnabled false
+//            debuggable true
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+
+//        release {
+//            buildConfigField "boolean", "MLOG", "false"
+//            minifyEnabled false
+//            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+//        }
+    }
+//    compileOptions {
+//        sourceCompatibility "1.8"
+//        targetCompatibility "1.8"
+//    }
+
+//    kotlinOptions {
+//        jvmTarget = JavaVersion.VERSION_1_8.toString()
+//    }
+//    bundle {
+//        language {
+//            enableSplit = false
+//        }
+//        density {
+//            enableSplit = true
+//        }
+//        abi {
+//            enableSplit = true
+//        }
+//    }
+
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+//    dexOptions {
+//        incremental true
+//        javaMaxHeapSize "4g"
+//    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0"
+    implementation 'androidx.appcompat:appcompat:1.4.2'
+    implementation 'androidx.core:core-ktx:1.8.0'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'androidx.vectordrawable:vectordrawable:1.1.0'
+    implementation 'androidx.navigation:navigation-fragment:2.5.0'
+    implementation 'androidx.navigation:navigation-ui:2.5.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.5.0'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.5.0'
+
+
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.8.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.google.code.gson:gson:2.7'
+
+
+    implementation 'com.mikhaellopez:circularimageview:4.2.0'
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'androidx.palette:palette:1.0.0'
+
+    implementation 'com.github.bumptech.glide:glide:4.9.0'
+    implementation 'com.google.firebase:firebase-auth-ktx:21.0.6'
+    kapt 'com.github.bumptech.glide:compiler:4.9.0'
+
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
+    implementation 'com.google.firebase:firebase-core:21.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.6'
+    implementation 'com.google.android.gms:play-services-auth:20.2.0'
+// Recommended: Add the Firebase SDK for Google Analytics.
+    implementation 'com.google.firebase:firebase-analytics:21.0.0'
+
+    // Add the Firebase Crashlytics SDK.
+    implementation 'com.google.firebase:firebase-crashlytics:18.2.11'
+
+    implementation 'com.paytm.pgsdk:pgsdk:1.0.16'
+    implementation 'com.facebook.android:facebook-android-sdk:5.15.3'
+
+    implementation 'net.gotev:uploadservice:2.1'
+    implementation 'com.andrognito.flashbar:flashbar:1.0.3'
+
+    implementation 'com.github.ybq:Android-SpinKit:1.4.0'
+    implementation 'androidx.emoji:emoji:1.1.0'
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
+    // loader
+//    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+//    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+    implementation 'com.tuyenmonkey:mkloader:1.4.0'
+    implementation 'com.google.android.gms:play-services-ads:21.0.0'
+
+}
+//keystore password and alias password skoreon123
+apply plugin: 'com.google.gms.google-services'

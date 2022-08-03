@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable-hdpi/bg_text_new.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable-hdpi/gradient_new.xml" value="0.1805" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable-xxxhdpi-v4/bg_text.xml" value="0.188" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/bottom.xml" value="0.1525" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/button_selector_black.xml" value="0.1985" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/button_selector_verify.xml" value="0.2115" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/card_rounded.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/circle_pink.xml" value="0.104" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/default_flat_button_sportsfight.xml" value="0.193" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/gradient.xml" value="0.1985" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/gradient_bg_quiz.xml" value="0.1985" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/orange_button_bg.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/progressbar_loading.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/purple_sqaure.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/rectangle.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/rectangle_green.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/rounded_btn_pink.xml" value="0.2115" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/rounded_corner_filled_blue.xml" value="0.2115" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/scrim_topdown.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/toolbar.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/drawable/xml_textbox_bg.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_add_money.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_change_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_contest.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_create_team.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_edit_profile.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_full_screen_image_mode.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_leaders_board.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_my_ballance.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_my_transaction.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_notification_list.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_otp_verify.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_quiz_contest.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_refferal_friends.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_register.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_save_team.xml" value="0.18226600985221675" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_select_team.xml" value="0.25" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_supports.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_team_preview.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_update_application.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_verify_document.xml" value="0.25" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_view_document.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/activity_withdraw_amount.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/bottom_nav_bar.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/contest_row_header.xml" value="0.25" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/contest_rows_inner.xml" value="0.18" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/createteam_row_players.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/dialog_progress.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_all_contest.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_all_games.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_create_team_list.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_demoview.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_forgot_password.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_join_contest_confirmation.xml" value="0.22" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_leaders_board.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_moreoptions.xml" value="0.22" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_account_balance.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_completed.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_contest.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_live.xml" value="0.203125" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_team.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_my_upcoming.xml" value="0.33" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_myaccounts.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_mymatches.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_playing_history.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_prize_breakup.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_transaction_history.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/fragment_update_apk.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/invite_friends.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/leaders_board_rows.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/live_contest_score_board.xml" value="0.5" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_banners_inner.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_banners_matches.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_completed.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_joined_inner.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_joined_matches.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_upcoming_inner.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/matches_row_upcoming_matches.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/my_loader.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/mycontest_rows.xml" value="0.25" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/mycontest_rows_teams.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/myopen_team_row.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/myteam_rows.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/nav_header_main.xml" value="0.18854166666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/preview_player_info.xml" value="0.25" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/prize_breakup_rows.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/row_more_options.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/row_notification.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/row_players_selected.xml" value="0.5" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/row_recent_transactions.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/row_refferal_friends.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/select_myteam_rows.xml" value="0.18" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/selected_team_created_label.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/toolbar.xml" value="0.11388888888888889" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/unselectedselected_team_created_labe.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/layout/webview.xml" value="0.20416666666666666" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/menu/activity_main_drawer.xml" value="0.1" />
+        <entry key="..\:/New Android src/merakhel/merakhel/merakhel/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

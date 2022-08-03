@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="contentviews"
+            type="merakhel.fantasy.ui.login.LoginScreenActivity" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/gradient"
+        >
+
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            style="@style/ToolbarTheme2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_300sdp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/oval"
+            android:fitsSystemWindows="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/_20sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_250sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:backgroundTint="@color/white">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:gravity="center"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/khel_fans" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circular_medium"
+                    android:gravity="center_horizontal"
+                    android:text="Login with"
+                    android:textColor="@color/white"
+                    android:textSize="25sp" />
+
+                <LinearLayout
+                    android:id="@+id/login_panel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_16sdp"
+                    android:layout_marginTop="@dimen/_16sdp"
+                    android:layout_marginRight="@dimen/_16sdp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <com.google.android.gms.common.SignInButton
+                        android:id="@+id/sign_in_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_margin="@dimen/_12sdp"
+                        android:baselineAligned="false"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--            <RelativeLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="@dimen/_30sdp"-->
+            <!--                android:layout_alignParentBottom="true"-->
+            <!--                android:background="@drawable/bottom"-->
+            <!--                android:backgroundTint="@color/background_default"/>-->
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:id="@+id/tnc_policy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            >
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/khel_fans" />
+
+
+
+            <TextView
+                android:id="@+id/checkbox_tnc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By creating an account or logging in, you agree to Mera Khel"
+                android:fontFamily="@font/tunga"
+                android:gravity="center"
+                android:textSize="@dimen/_12sdp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/text" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/txt_tnc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Condition of Use"
+                    android:fontFamily="@font/tunga"
+                    android:textColor="@color/text"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" and "
+                    android:fontFamily="@font/tunga"
+                    android:textColor="@color/text"/>
+
+                <TextView
+                    android:id="@+id/txt_privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Privacy Policy"
+                    android:fontFamily="@font/tunga"
+                    android:textColor="@color/text"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <include
+            android:visibility="gone"
+            android:id="@+id/loaderLogin"
+            layout="@layout/my_loader"/>
+
+
+
+    </RelativeLayout>
+
+</layout>

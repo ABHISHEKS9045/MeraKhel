@@ -1,0 +1,223 @@
+{
+  "project_info": {
+    "project_number": "359813752505",
+    "firebase_url": "https://sports-5cdb2.firebaseio.com",
+    "project_id": "sports-5cdb2",
+    "storage_bucket": "sports-5cdb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359813752505:android:077b46cc8a1a4edb4c1d68",
+        "android_client_info": {
+          "package_name": "merakhel.fantasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359813752505-humf3t6sllbo24aujj0ivln50df8cq5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "merakhel.fantasy",
+            "certificate_hash": "a1d6f887cd93f57a9e4e9eb800ba4faf5a0699f3"
+          }
+        },
+        {
+          "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdoxaxrk3NPZPKGlOQNZljmi57T4yL6ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359813752505:android:551141bd1f836ace4c1d68",
+        "android_client_info": {
+          "package_name": "skoreon.fantasy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359813752505-1qacl9ode0i3cn85guhlqql1s9pkk3dg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skoreon.fantasy",
+            "certificate_hash": "2c7ebe0a3dec2a125ad96ba2466b9b2d935a29f2"
+          }
+        },
+        {
+          "client_id": "359813752505-9tteu0nrusv8mvlro8l5r5mb8kn1dsbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skoreon.fantasy",
+            "certificate_hash": "b0d12a2ca3f7cb4858acc0a4767215f45eb20687"
+          }
+        },
+        {
+          "client_id": "359813752505-jf6lh30qsep2u8dekd0b30amu5mehluo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skoreon.fantasy",
+            "certificate_hash": "1ee4b16a2827f1f8c17a9cd6d3d9391096fd88ea"
+          }
+        },
+        {
+          "client_id": "359813752505-ou5a7vbitj72la4evc8f897c62qnhv0u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skoreon.fantasy",
+            "certificate_hash": "a1d6f887cd93f57a9e4e9eb800ba4faf5a0699f3"
+          }
+        },
+        {
+          "client_id": "359813752505-p0v5ku19mh19scpbrpcfasid5vgjunij.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "skoreon.fantasy",
+            "certificate_hash": "fc8825718ed0a001a4156ee6c5eebac5e11616e0"
+          }
+        },
+        {
+          "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdoxaxrk3NPZPKGlOQNZljmi57T4yL6ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359813752505:android:015b2e26d468fd3d4c1d68",
+        "android_client_info": {
+          "package_name": "sportsfight.cricket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359813752505-4f7irnth4nt06u3ghkcq41hca3531hhb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsfight.cricket",
+            "certificate_hash": "0c41d49f02f219628b2bb734d1b4e90b0fc7510a"
+          }
+        },
+        {
+          "client_id": "359813752505-avldpfjpna6f1ib5bodn9m22h2sj5tgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsfight.cricket",
+            "certificate_hash": "fc8825718ed0a001a4156ee6c5eebac5e11616e0"
+          }
+        },
+        {
+          "client_id": "359813752505-fphba22mcdg6a3ukh7l8efu59v107qdo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsfight.cricket",
+            "certificate_hash": "2c7ebe0a3dec2a125ad96ba2466b9b2d935a29f2"
+          }
+        },
+        {
+          "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdoxaxrk3NPZPKGlOQNZljmi57T4yL6ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:359813752505:android:7becccfe7b8d02b64c1d68",
+        "android_client_info": {
+          "package_name": "sportsosm.cricket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "359813752505-3phqgicv3dk3rsn7q4u4ckdctdb8ef41.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsosm.cricket",
+            "certificate_hash": "fc8825718ed0a001a4156ee6c5eebac5e11616e0"
+          }
+        },
+        {
+          "client_id": "359813752505-gpi39rn9gho243qfn9g08iubtms62l6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsosm.cricket",
+            "certificate_hash": "0c41d49f02f219628b2bb734d1b4e90b0fc7510a"
+          }
+        },
+        {
+          "client_id": "359813752505-j05bi69g5fc7krhumim0kvfppfrjh833.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sportsosm.cricket",
+            "certificate_hash": "2c7ebe0a3dec2a125ad96ba2466b9b2d935a29f2"
+          }
+        },
+        {
+          "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdoxaxrk3NPZPKGlOQNZljmi57T4yL6ig"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "359813752505-od0hjc7h63ch994g327lag9n51h3699h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

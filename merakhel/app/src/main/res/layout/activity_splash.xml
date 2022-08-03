@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="contentviews"
+            type="merakhel.fantasy.SplashScreenActivity" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:fitsSystemWindows="true"
+        android:background="@color/black"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/parent_splash_background"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="@dimen/_250sdp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/khel_fans"/>
+    </RelativeLayout>
+
+</layout>

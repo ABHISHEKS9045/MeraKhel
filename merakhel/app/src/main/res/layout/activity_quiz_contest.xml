@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="contentviews"
+            type="merakhel.fantasy.QuizContestActivity" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="merakhel.fantasy.ContestActivity"
+        android:background="@color/white"
+        >
+
+        <LinearLayout
+            android:id="@+id/linear_top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="vertical"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/whiteshow"
+                android:orientation="horizontal"
+                >
+
+                <ImageView
+                    android:id="@+id/image_back"
+                    android:layout_width="@dimen/header_icon_size"
+                    android:layout_height="@dimen/header_icon_size"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    android:src="@drawable/ic_arrow_back_black_24dp"
+                    app:tint="@color/black" />
+
+                 <ImageView
+                     android:id="@+id/quiz_logo"
+                     android:layout_width="40dp"
+                     android:layout_height="wrap_content"
+                     android:src="@drawable/gradient_bg_quiz"
+                     android:layout_toRightOf="@+id/image_back"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_toRightOf="@+id/quiz_logo"
+                    android:fontFamily="@font/montserrat_regular"
+                    android:text="QUIZ"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/_18sdp"
+                    android:textStyle="bold" />
+                <ImageView
+                    android:layout_width="@dimen/header_icon_size"
+                    android:layout_height="@dimen/header_icon_size"
+                    android:src="@drawable/ic_notifications_black_24dp"
+                    android:layout_toLeftOf="@+id/img_wallet"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    app:tint="@color/black" />
+
+                <LinearLayout
+                    android:id="@+id/img_wallet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_toLeftOf="@+id/img_wallet_history"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/header_icon_size"
+                        android:layout_height="@dimen/header_icon_size"
+                        android:src="@drawable/ic_account_balance_wallet_black_24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="8dip"
+                        app:tint="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Wallet"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/img_wallet_history"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dip"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:layout_width="@dimen/header_icon_size"
+                        android:layout_height="@dimen/header_icon_size"
+                        android:src="@drawable/ic_refresh_black_24dp"
+                        android:layout_gravity="center"
+                        app:tint="@color/black" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="History"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_quiz_contest"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/linear_top_bar" />
+
+    </RelativeLayout>
+
+</layout>
